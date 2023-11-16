@@ -1,25 +1,24 @@
 # Scanner3D
 
-## Descripción del Proyecto
+## Project Description
 
-Este proyecto representa mi trabajo final de carrera en ingeniería electrónica, donde diseñé y desarrollé un escáner 3D utilizando la tecnología RealSense de Intel y una cámara SR3000. La aplicación principal se construyó con Qt Creator utilizando C++, mientras que la interacción con hardware, como la plataforma giratoria, se implementó utilizando Arduino.
+This project represents my final work for my electronic engineering degree, where I designed and developed a 3D scanner using Intel's RealSense technology and an SR3000 camera. The main application was built with Qt Creator using C++, while hardware interaction, such as the rotating platform, was implemented using Arduino.
 
-## Características Principales
+## Key Features
 
-- **Tecnologías Utilizadas:**
+- **Technologies Used:**
   - [Intel RealSense](https://www.intelrealsense.com/)
-  - C++ con Qt Creator
+  - C++ with Qt Creator
   - Arduino
 
-- **Dispositivos:**
-  - Cámara SR3000
-  - Plataforma giratoria y soporte cámar impreso en 3d 
-  - Motor paso a paso 28BYJ-48 con Arduino y driver ULN2003
+- **Devices:**
+  - SR3000 Camera
+  - 3D-printed rotating platform and camera support
+  - 28BYJ-48 stepper motor with Arduino and ULN2003 driver
 
-## Funcionalidades
+## Functionalities
 
-- Captura de datos 3D utilizando la tecnología RealSense.
-- Control y comunicación con la cámara SR3000.
-- Implementación de una plataforma giratoria para la captura de datos desde diferentes ángulos.
-- Integración de Arduino para el control preciso del motor paso a paso.
-
+- 3D data capture using RealSense technology.
+- Control and communication with the SR3000 camera.
+- Implementation of a rotating platform for data capture from different angles.
+- Arduino integration for precise control of the stepper motor.
